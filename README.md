@@ -1,18 +1,19 @@
-# v2rayN
+献给使用Win7系统的朋友们！！！
 
-A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)
-and [sing-box](https://github.com/SagerNet/sing-box)
-and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
+1、使用V2rayN支持Win7 32位的最新版v6.60，目前32位版本已经停更；
+2、Xray、Singbox、Mihomo三大内核均为截止2026-01-17的最新版，紧急修复了uTLS的漏洞；
+（xray v26.1.18、sing-box v1.12.17、mihomo v1.19.19）
+3、对三大内核使用GO v1.25.6 for Win7的魔改版进行重新编译，提高稳定和安全；
+4、通过UPX v5.1.0对内核进行压缩以减少体积，大约仅有原体积的三分之一；
+5、更新GEOIP到2026-01-20的最新版。
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/v2rayN)](https://github.com/2dust/v2rayN/commits/master)
-[![CodeFactor](https://www.codefactor.io/repository/github/2dust/v2rayn/badge)](https://www.codefactor.io/repository/github/2dust/v2rayn)
-[![GitHub Releases](https://img.shields.io/github/downloads/2dust/v2rayN/latest/total?logo=github)](https://github.com/2dust/v2rayN/releases)
-[![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn)
 
-## How to use
+1、使用V2rayN支持Win7 64位的最新版v7.17.1；主要支持ECH
+2、Xray、Singbox、Mihomo三大内核均为截止2026-01-17的最新版，紧急修复了uTLS的漏洞；
+（Xray v26.1.18、Sing-box v1.12.17、Mihomo v1.19.19）
+3、对三大内核使用GO v1.25.6 for Win7的魔改版进行重新编译，提高稳定和安全；
+4、通过UPX v5.1.0对内核进行压缩以减少体积，大约仅有原体积的三分之一；
+5、更新GEOIP到2026-01-20的最新版。
 
-Read the [Wiki](https://github.com/2dust/v2rayN/wiki) for details.
 
-## Telegram Channel
-
-[github_2dust](https://t.me/github_2dust)
+敬告：不要使用V2rayN中自带的更新内核，否则将会被替换成非Win7版的，导致无法正常使用！！！
